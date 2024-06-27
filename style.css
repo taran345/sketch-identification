@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color:rgb(40, 0, 60);
+    background-color: wheat;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: modal;
+    animation-duration: 4s;
+    margin-top: 40px;
+    animation-iteration-count: infinite;
+}
+@keyframes modal{
+    from{box-shadow: 1px 1px 38px grey ;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
